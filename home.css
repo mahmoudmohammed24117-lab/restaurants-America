@@ -1,0 +1,422 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    position: relative;
+    z-index: 99;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(31, 34, 31, 0.067);
+    color: #000;
+    font-size: larger;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 15px;
+}
+a
+{
+    margin: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color:red ;
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: white;
+    color: #000;
+    margin-top: ;
+    margin: 10px;
+    
+}
+#one{
+    width: 50%;
+    margin: 20px;
+}
+#two{
+    width: 30%;
+}
+.sp{
+    color: yellowgreen;
+    font-style: italic;
+    font-size: 75px;
+}
+.hh{
+    margin: 40PX;
+   
+}
+h1{
+    font-size: 60px;
+}
+#vv{
+    background-color: yellow;
+    width: 150px;
+    font-size: x-large;
+}
+#vv:hover{
+    width: 350px;
+    border-radius: 10px;
+    border: 3px red solid;
+    font-size: xx-large;
+    transition: all 1.5s ease;
+}
+.icon:hover{
+    color: yellowgreen;
+  
+
+}
+#i{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+#three{
+    width: 50%;
+
+}
+.bur{
+    font-size: 40px;
+    color: yellowgreen;
+    font-style: italic;
+}
+#four{
+    width: 47%;
+}
+.grt{
+    margin: 50px;
+    font-size: 28px;
+}
+#lk{
+    font-size: 50px;
+}
+#nb{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+}
+#nb:hover{
+    width: 300px;
+    border-radius: 10px;
+    border: 3px blue solid;
+    transition: all 1.5s ease;
+
+}
+#ii{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+}    
+.ty{
+    width: 23%;
+    height: auto;
+    background-color: wheat;
+}
+#bv{
+    text-align: center;
+    font-size: xx-large;
+}
+.kk{
+    text-align: center;
+}
+.zx{
+    background-color: black;
+    color: white;
+}
+.wq{
+    background-color: white;
+}
+.zx:hover{
+    background-color: whitesmoke;
+    color: black;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px blue solid;
+    font-size: larger;
+}
+.asd{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 30px;
+    font-size: larger;
+}
+#our-gallrey {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 50px;
+}
+
+#our-gallrey article {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#our-gallrey img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+#our-gallrey article div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  padding: 20px;
+  transform: translateY(20px);
+}
+
+#our-gallrey article:hover div {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#our-gallrey article:hover img {
+  transform: scale(1.1);
+}
+
+
+#our-gallrey .bur {
+  font-size: 26px;
+  color: #ff9900;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+#our-gallrey p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+#our-gallrey .asd {
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#customer-review{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+    gap: 15px;
+    margin: 20px;
+}
+.star{
+    color: #ff9900;
+    text-align: center;
+    
+}
+.ee{
+    text-align: center;
+    font-size: x-large;
+}
+.bord{
+    text-align: center;
+    border-radius: 50%;
+}
+.zz{
+    text-align: center;
+}
+.qq{
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#our-gallrey .asd:hover {
+  background-color: #e67e00;
+}
+.order-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.order-content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.order-image img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.order-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+}
+
+.form-columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: vertical;
+}
+button:hover {
+  background-color: #e65c00;
+}
+.team-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: 0.3s;
+  margin: 50px;
+}
+
+.team-member img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-member .info {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.3s;
+  text-align: center;
+  padding: 10px;
+}
+
+.team-member:hover .info {
+  opacity: 10;
+}
+#xx{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: auto;
+    gap: 20px;
+    background-color: white;
+    color: #000;
+}
+.foot{
+    text-align: center;
+    list-style-type: none;
+    margin: 20px;
+}
+
+footer{
+    text-align: center;
+
+}
+href{
+    width: 100%;
+    height: 2px;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+  .order-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .order-image {
+    display: none; 
+  }
+
+  .form-columns {
+    flex-direction: column; 
+  }
+}
+@media (max-width: 768px) {
+  #our-gallrey {
+    padding: 20px;
+    gap: 15px;
+  }
+
+  #our-gallrey .bur {
+    font-size: 20px;
+  }
+
+  #our-gallrey p {
+    font-size: 13px;
+  }
+
+  #our-gallrey .asd {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+}
