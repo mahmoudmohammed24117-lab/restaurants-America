@@ -1,5 +1,9 @@
 # 🍽️ Restaurants America Website
 
+## 🌐 Live Demo
+
+👉 **[View Live Website](https://mahmoudmohammed24117-lab.github.io/restaurants-America/)**
+
 A modern and responsive restaurant website built using **HTML** and **CSS**. The project provides an attractive user interface for showcasing restaurant services, featured dishes, customer reviews, and contact information.
 
 ## 🚀 Features
